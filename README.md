@@ -28,7 +28,13 @@ With these logical vectors we subset the original 'DataSet' obtaining two differ
 
 The final step consists on creating a new data set with the average of each variable for each activity and each subject. To do that we create a nested for loop going trough all the subjects (1:30) and all the activities (1:6) per subject. 
 
-For each iteration we take a new subset attending the Subject and the Activity developed. The variable is Subset2
+For each iteration we take a new subset attending the Subject and the Activity developed (Subset2) from this subset we have to determine the mean value of eache column, we do that using the apply() function. Each iteration generates a new row with the mean values, this row is combined with the previuos one creating the wanted dataset ('NewSubset').
+
+To initialize 'NewSubset' we include as the first row a vector full of zeros. When the NewSubset is complete, this first row is deleted.
+
+Finally we change the Activity identifiers by the real activity names, after that we edit the column names to indicate that all are Mean values.
+
+The last step consist on saving the 'NewSubset' data frame as FinalDataSubsetScript.txt file using write.table(...,row.names=FALSE).
 
 
 
