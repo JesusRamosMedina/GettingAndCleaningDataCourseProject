@@ -1,83 +1,63 @@
 These are the variables shown in my FinalDataSet:
 
-[1] "tBodyAccelerometer-mean()-X.MeanValue"             
- [2] "tBodyAccelerometer-mean()-Y.MeanValue"             
- [3] "tBodyAccelerometer-mean()-Z.MeanValue"             
- [4] "tGravityAccelerometer-mean()-X.MeanValue"          
- [5] "tGravityAccelerometer-mean()-Y.MeanValue"          
- [6] "tGravityAccelerometer-mean()-Z.MeanValue"          
- [7] "tBodyAccelerometerJerk-mean()-X.MeanValue"         
- [8] "tBodyAccelerometerJerk-mean()-Y.MeanValue"         
- [9] "tBodyAccelerometerJerk-mean()-Z.MeanValue"         
-[10] "tBodyGyroscope-mean()-X.MeanValue"                 
-[11] "tBodyGyroscope-mean()-Y.MeanValue"                 
-[12] "tBodyGyroscope-mean()-Z.MeanValue"                 
-[13] "tBodyGyroscopeJerk-mean()-X.MeanValue"             
-[14] "tBodyGyroscopeJerk-mean()-Y.MeanValue"             
-[15] "tBodyGyroscopeJerk-mean()-Z.MeanValue"             
-[16] "tBodyAccelerometerMag-mean().MeanValue"            
-[17] "tGravityAccelerometerMag-mean().MeanValue"         
-[18] "tBodyAccelerometerJerkMag-mean().MeanValue"        
-[19] "tBodyGyroscopeMag-mean().MeanValue"                
-[20] "tBodyGyroscopeJerkMag-mean().MeanValue"            
-[21] "fBodyAccelerometer-mean()-X.MeanValue"             
-[22] "fBodyAccelerometer-mean()-Y.MeanValue"             
-[23] "fBodyAccelerometer-mean()-Z.MeanValue"             
-[24] "fBodyAccelerometer-meanFreq()-X.MeanValue"         
-[25] "fBodyAccelerometer-meanFreq()-Y.MeanValue"         
-[26] "fBodyAccelerometer-meanFreq()-Z.MeanValue"         
-[27] "fBodyAccelerometerJerk-mean()-X.MeanValue"         
-[28] "fBodyAccelerometerJerk-mean()-Y.MeanValue"         
-[29] "fBodyAccelerometerJerk-mean()-Z.MeanValue"         
-[30] "fBodyAccelerometerJerk-meanFreq()-X.MeanValue"     
-[31] "fBodyAccelerometerJerk-meanFreq()-Y.MeanValue"     
-[32] "fBodyAccelerometerJerk-meanFreq()-Z.MeanValue"     
-[33] "fBodyGyroscope-mean()-X.MeanValue"                 
-[34] "fBodyGyroscope-mean()-Y.MeanValue"                 
-[35] "fBodyGyroscope-mean()-Z.MeanValue"                 
-[36] "fBodyGyroscope-meanFreq()-X.MeanValue"             
-[37] "fBodyGyroscope-meanFreq()-Y.MeanValue"             
-[38] "fBodyGyroscope-meanFreq()-Z.MeanValue"             
-[39] "fBodyAccelerometerMag-mean().MeanValue"            
-[40] "fBodyAccelerometerMag-meanFreq().MeanValue"        
-[41] "fBodyBodyAccelerometerJerkMag-mean().MeanValue"    
-[42] "fBodyBodyAccelerometerJerkMag-meanFreq().MeanValue"
-[43] "fBodyBodyGyroscopeMag-mean().MeanValue"            
-[44] "fBodyBodyGyroscopeMag-meanFreq().MeanValue"        
-[45] "fBodyBodyGyroscopeJerkMag-mean().MeanValue"        
-[46] "fBodyBodyGyroscopeJerkMag-meanFreq().MeanValue"    
-[47] "tBodyAccelerometer-std()-X.MeanValue"              
-[48] "tBodyAccelerometer-std()-Y.MeanValue"              
-[49] "tBodyAccelerometer-std()-Z.MeanValue"              
-[50] "tGravityAccelerometer-std()-X.MeanValue"           
-[51] "tGravityAccelerometer-std()-Y.MeanValue"           
-[52] "tGravityAccelerometer-std()-Z.MeanValue"           
-[53] "tBodyAccelerometerJerk-std()-X.MeanValue"          
-[54] "tBodyAccelerometerJerk-std()-Y.MeanValue"          
-[55] "tBodyAccelerometerJerk-std()-Z.MeanValue"          
-[56] "tBodyGyroscope-std()-X.MeanValue"                  
-[57] "tBodyGyroscope-std()-Y.MeanValue"                  
-[58] "tBodyGyroscope-std()-Z.MeanValue"                  
-[59] "tBodyGyroscopeJerk-std()-X.MeanValue"              
-[60] "tBodyGyroscopeJerk-std()-Y.MeanValue"              
-[61] "tBodyGyroscopeJerk-std()-Z.MeanValue"              
-[62] "tBodyAccelerometerMag-std().MeanValue"             
-[63] "tGravityAccelerometerMag-std().MeanValue"          
-[64] "tBodyAccelerometerJerkMag-std().MeanValue"         
-[65] "tBodyGyroscopeMag-std().MeanValue"                 
-[66] "tBodyGyroscopeJerkMag-std().MeanValue"             
-[67] "fBodyAccelerometer-std()-X.MeanValue"              
-[68] "fBodyAccelerometer-std()-Y.MeanValue"              
-[69] "fBodyAccelerometer-std()-Z.MeanValue"              
-[70] "fBodyAccelerometerJerk-std()-X.MeanValue"          
-[71] "fBodyAccelerometerJerk-std()-Y.MeanValue"          
-[72] "fBodyAccelerometerJerk-std()-Z.MeanValue"          
-[73] "fBodyGyroscope-std()-X.MeanValue"                  
-[74] "fBodyGyroscope-std()-Y.MeanValue"                  
-[75] "fBodyGyroscope-std()-Z.MeanValue"                  
-[76] "fBodyAccelerometerMag-std().MeanValue"             
-[77] "fBodyBodyAccelerometerJerkMag-std().MeanValue"     
-[78] "fBodyBodyGyroscopeMag-std().MeanValue"             
-[79] "fBodyBodyGyroscopeJerkMag-std().MeanValue"         
-[80] "Activity"                                          
-[81] "Subject"
+[1] "tBodyAccelerometer-mean()-XYZ.MeanValue": Mean value of the body acceleration in the time domain             
+           
+ [2] "tGravityAccelerometer-mean()-XYZ.MeanValue": Mean value of the gravity acceleration in the time domain          
+           
+ [3] "tBodyAccelerometerJerk-mean()-XYZ.MeanValue": Mean value of the body linear acceleration derived in time.         
+          
+[4] "tBodyGyroscope-mean()-XYZ.MeanValue": Mean value of the angular velocity in time domain.                  
+                 
+[5] "tBodyGyroscopeJerk-mean()-XYZ.MeanValue": Mean value of the angular velocity derived in time.     
+             
+[6] "tBodyAccelerometerMag-mean().MeanValue": Mean value of the magnitude of the Euclid norm calculated for the 3 dimensional signal            
+[7] "tGravityAccelerometerMag-mean().MeanValue": Mean value of the magnitude of the Euclid norm calculated for the 3 dimensional signal         
+[8] "tBodyAccelerometerJerkMag-mean().MeanValue": Mean value of the magnitude of the Euclid norm calculated for the 3 dimensional signal        
+[9] "tBodyGyroscopeMag-mean().MeanValue": Mean value of the magnitude of the Euclid norm calculated for the 3 dimensional signal                
+[10] "tBodyGyroscopeJerkMag-mean().MeanValue": Mean value of the magnitude of the Euclid norm calculated for the 3 dimensional signal            
+[11] "fBodyAccelerometer-mean()-XYZ.MeanValue": Mean value of the body acceleration in the frequency domain.
+             
+[12] "fBodyAccelerometer-meanFreq()-XYZ.MeanValue": Mean value of the acceleration in the frequency domain averaged in frequency.        
+         
+[13] "fBodyAccelerometerJerk-mean()-XYZ.MeanValue": Mean value of the body linear acceleration derived in frequency.         
+         
+[14] "fBodyAccelerometerJerk-meanFreq()-XYZ.MeanValue": Mean value of the body linear acceleration derived and averaged in frequency.      
+    
+[15] "fBodyGyroscope-mean()-XYZ.MeanValue": Mean value of the angular velocity in frequency domain.               
+                 
+[16] "fBodyGyroscope-meanFreq()-XYZ.MeanValue": Mean value of the angular velocity averaged in frequency domain.              
+             
+[17] "fBodyAccelerometerMag-mean().MeanValue": Mean value of the magnitude of the Euclid norm calculated for the 3 dimensional signal (frequency domain).            
+[18] "fBodyAccelerometerMag-meanFreq().MeanValue": Mean value of the magnitude of the Euclid norm calculated for the 3 dimensional signal (frequency doamin)        
+[19] "fBodyBodyAccelerometerJerkMag-mean().MeanValue": Mean value of the magnitude of the Euclid norm calculated for the 3 dimensional signal (frequency domain)     
+[20] "fBodyBodyAccelerometerJerkMag-meanFreq().MeanValue": Mean value of the magnitude of the Euclid norm calculated for the 3 dimensional signal (frequency domain), averaged in frequency.
+[21] "fBodyBodyGyroscopeMag-mean().MeanValue": Mean value of the magnitude of the Euclid norm calculated for the 3 dimensional signal (frequency domain).           
+[22] "fBodyBodyGyroscopeMag-meanFreq().MeanValue": Mean value of the magnitude of the Euclid norm calculated for the 3 dimensional signal (frequency domain). Averaged in frequency.       
+   
+[23] "tBodyAccelerometer-std()-XYZ.MeanValue": Mean value of the std of the body acceleration in the time domain.           
+              
+[24] "tGravityAccelerometer-std()-XYZ.MeanValue": Mean value of the std of the gravity acceleration in the time domain         
+          
+[25] "tBodyAccelerometerJerk-std()-XYZ.MeanValue": Mean value of the std of the body linear acceleration derived in time.           
+          
+[26] "tBodyGyroscope-std()-XYZ.MeanValue": Mean value of the std of the angular velocity in time domain.                   
+                  
+[27] "tBodyGyroscopeJerk-std()-XYZ.MeanValue": Mean value of the std of the angular velocity derived in time.            
+             
+[28] "tBodyAccelerometerMag-std().MeanValue": Mean value of the std of the magnitude of the Euclid norm calculated for the 3 dimensional signal.            
+[29] "tGravityAccelerometerMag-std().MeanValue": Mean value of the std of the magnitude of the Euclid norm calculated for the 3 dimensional signal.           
+[30] "tBodyAccelerometerJerkMag-std().MeanValue": Mean value of the std of the magnitude of the Euclid norm calculated for the 3 dimensional signal.        
+[31] "tBodyGyroscopeMag-std().MeanValue": Mean value of the std of the magnitude of the Euclid norm calculated for the 3 dimensional signal.                 
+[32] "tBodyGyroscopeJerkMag-std().MeanValue": Mean value of the std of the magnitude of the Euclid norm calculated for the 3 dimensional signal.             
+[33] "fBodyAccelerometer-std()-XYZ.MeanValue": Mean value of the std of the body acceleration in the frequency domain.               
+              
+[34] "fBodyAccelerometerJerk-std()-XYZ.MeanValue": Mean value of the std of the body linear acceleration derived in time. Frequency domain.           
+        
+[35] "fBodyGyroscope-std()-XYZ.MeanValue": Mean value of the std of the angular velocity in frequency domain.                   
+                  
+[36] "fBodyAccelerometerMag-std().MeanValue": Mean value of the std of the magnitude of the Euclid norm calculated for the 3 dimensional signal. Frequency domain.              
+[37] "fBodyBodyAccelerometerJerkMag-std().MeanValue": Mean value of the std of the magnitude of the Euclid norm calculated for the 3 dimensional signal. Frequency domain.    
+[38] "fBodyBodyGyroscopeMag-std().MeanValue": Mean value of the std of the magnitude of the Euclid norm calculated for the 3 dimensional signal. Frequency domain.            
+[39] "fBodyBodyGyroscopeJerkMag-std().MeanValue": Mean value of the std of the magnitude of the Euclid norm calculated for the 3 dimensional signal. Frequency domain.         
+[40] "Activity": Activity developed by the user.                                          
+[41] "Subject": User identifier.
